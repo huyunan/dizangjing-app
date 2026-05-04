@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "dizangjing-app",
+  "productName": "地藏经",
   "version": "1.0.0",
   "identifier": "com.huyun.dizangjing-app",
   "build": {

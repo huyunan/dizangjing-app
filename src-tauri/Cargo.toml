@@ -1,5 +1,5 @@
 [package]
-name = "dizangjing-app"
+name = "地藏经"
 version = "1.0.0"
 description = "A Tauri App"
 authors = ["you"]
