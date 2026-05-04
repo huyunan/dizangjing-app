@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+/* 换成你自己的根容器ID，React一般是#root，Vue一般是#app */
+#root {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* 额外注意：底部固定定位的元素（比如你自己做的底部Tab栏），必须自己留安全区域，根容器的padding不影响fixed元素 */
+.my-bottom-tab {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 @font-face {
     font-family: Inter;
     font-style: normal;
